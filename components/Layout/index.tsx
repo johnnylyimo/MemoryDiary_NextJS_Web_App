@@ -7,5 +7,6 @@ type MetaProps = {
 }
 
 type LayoutProps = {
-    
+    meta: MetaProps;
+
 }
