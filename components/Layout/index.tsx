@@ -4,5 +4,8 @@ import { ReactNode } from 'react'
 type MetaProps = {
     title:string;
     description:string;
+}
 
+type LayoutProps = {
+    
 }
