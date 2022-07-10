@@ -8,5 +8,5 @@ type MetaProps = {
 
 type LayoutProps = {
     meta: MetaProps;
-
+    children:ReactNode;
 }
