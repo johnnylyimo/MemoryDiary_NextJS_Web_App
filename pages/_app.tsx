@@ -6,7 +6,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <Layout meta={{
       title:'Home | MemoryDiary',
-      
+      description:"MemoryDiary's home page"
       }}>
       <Component {...pageProps} /> 
     </Layout>
