@@ -1,0 +1,1 @@
+import NextHead from '@components/NextHead';
