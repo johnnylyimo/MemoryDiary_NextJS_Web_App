@@ -5,6 +5,6 @@ interface NextHeadProps{
     description:string;
 }
 
-export default function NextHead({title}){
+export default function NextHead({title, description}){
 
 }
