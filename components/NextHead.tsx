@@ -1,6 +1,6 @@
 import Head from "next/head";
 
-interface NextHeadProps{
+type NextHeadProps = {
     title:string;
     description:string;
 }
