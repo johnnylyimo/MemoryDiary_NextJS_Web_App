@@ -10,3 +10,5 @@ type LayoutProps = {
     meta: MetaProps;
     children:ReactNode;
 }
+
+export default function Layout(){}
