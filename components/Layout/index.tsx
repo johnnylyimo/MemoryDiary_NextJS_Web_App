@@ -13,6 +13,6 @@ type LayoutProps = {
 
 export default function Layout({meta, children}:LayoutProps){
     <>
-        <NextHead title={meta.title} />
+        <NextHead title={meta.title} description={meta.description} />
     </>
 }
