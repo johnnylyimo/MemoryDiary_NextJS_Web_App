@@ -6,6 +6,7 @@
     "baseUrl": "./",
     "paths": {
       "@components/*": ["components/*"],
+      "@styles/*": ["styles/*"]
     },
     "skipLibCheck": true,
     "strict": true,
