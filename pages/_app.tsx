@@ -4,7 +4,10 @@ import Layout from '@components/Layout'
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <Layout >
+    <Layout meta={{
+      title:'Home | MemoryDiary',
+      
+      }}>
       <Component {...pageProps} /> 
     </Layout>
   )
