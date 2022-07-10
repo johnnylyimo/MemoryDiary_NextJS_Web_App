@@ -11,4 +11,8 @@ type LayoutProps = {
     children:ReactNode;
 }
 
-export default function Layout({meta, children}:LayoutProps){}
+export default function Layout({meta, children}:LayoutProps){
+    <>
+        <NextHead title={meta.title} />
+    </>
+}
