@@ -17,6 +17,7 @@ export default function Layout({meta, children}:LayoutProps){
         <>
             <NextHead title={meta.title} description={meta.description} />
             {children}
+            <DevTools />
         </>
     )
 }
