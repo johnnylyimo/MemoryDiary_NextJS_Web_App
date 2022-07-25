@@ -3,11 +3,11 @@ import Image from 'next/image'
 
 const Home: NextPage = () => {
   return (
-      <main className='flex flex-col items-center'>
-    <section>
-      
-    </section>
-  </main>
+    <main className='flex flex-col items-center space-y-4'>
+      <section>
+        
+      </section>
+    </main>
   )
 }
 
