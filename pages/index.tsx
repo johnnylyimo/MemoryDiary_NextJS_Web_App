@@ -8,8 +8,8 @@ const Home: NextPage = () => {
         Home
       </h1>
       <section className='grid grid-cols-1 lg:grid-cols-6 gap-6 p-10 self-stretch'>
-        <div>
-          
+        <div className='col-span-2'>
+
         </div>
       </section>
     </main>
