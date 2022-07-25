@@ -7,7 +7,7 @@ const Home: NextPage = () => {
       <h1 className='text-4xl text-purple-400 font-bold underline'>
         Home
       </h1>
-      <section className='grid grid-cols-1 lg:grid-cols-6 gap-6'>
+      <section className='grid grid-cols-1 lg:grid-cols-6 gap-6 p-10'>
         
       </section>
     </main>
