@@ -19,7 +19,7 @@ const Home: NextPage = () => {
             </p>
             <form className='text-center mt-6 p-2'>
               <label htmlFor="message" className='block mb-2 text-md font-medium text-gray-900'>
-                
+                Write new memory here below
               </label>
 
             </form>
