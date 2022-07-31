@@ -23,10 +23,10 @@ const Home: NextPage = () => {
               </label>
               <textarea rows={4} className='block p-2 w-full text-base text-gray-900 bg-[#cc99cc] rounded-lg border-2 border-purple-400' placeholder='Write new memory here ...'>
               </textarea>
-              <button className='bg-purple-400 p-2 mt-4 text-2xl font-medium text-white cursor-pointer rounded-lg'>
+              <button className='bg-purple-400 p-2 mt-6 text-2xl font-medium text-white cursor-pointer rounded-lg'>
                 Save
               </button>
-              <label className='block text-xl text-center font-medium'>
+              <label className='block text-xl text-center font-medium mt-4'>
                 Remember the good times
               </label>
 
