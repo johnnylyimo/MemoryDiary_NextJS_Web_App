@@ -29,9 +29,10 @@ const Home: NextPage = () => {
               <label className='block text-xl text-center font-medium mt-4'>
                 Remember the good times
               </label>
-
             </form>
-
+        </div>
+        <div className="">
+          
         </div>
       </section>
     </main>
