@@ -21,6 +21,9 @@ const Home: NextPage = () => {
               <label htmlFor="message" className='block mb-2 text-md font-medium text-gray-900'>
                 Write new memory here below
               </label>
+              <textarea>
+                
+              </textarea>
 
             </form>
 
