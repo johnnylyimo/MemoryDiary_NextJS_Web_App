@@ -14,7 +14,7 @@ const Home: NextPage = () => {
             <p className='text-xl font-bold text-center'>
               Today will be better than yesterday
             </p>
-            <p className='text-xl'>
+            <p className='text-xl text-center'>
               Anytime something positive happens, make a note of it and come back to it later
             </p>
 
