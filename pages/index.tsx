@@ -9,7 +9,9 @@ const Home: NextPage = () => {
       </h1>
       <section className='grid grid-cols-1 lg:grid-cols-6 gap-6 p-10 self-stretch'>
         <div className='col-span-2 lg:col-span-3 h-[500px] bg-[#cc99cc] ml-12 lg:ml-0'>
-          <h1></h1>
+          <h1>
+          World of the day
+          </h1>
 
         </div>
       </section>
