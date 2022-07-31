@@ -26,7 +26,7 @@ const Home: NextPage = () => {
               <button className='bg-purple-400 p-2 mt-4 text-2xl font-medium text-white cursor-pointer rounded-lg'>
                 Save
               </button>
-              <label className='block text-xl'>
+              <label className='block text-xl text-center'>
                 Remember the good times
               </label>
 
