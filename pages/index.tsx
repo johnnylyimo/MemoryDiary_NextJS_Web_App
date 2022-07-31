@@ -18,7 +18,7 @@ const Home: NextPage = () => {
               Anytime something positive happens, make a note of it and come back to it later
             </p>
             <form className='text-center mt-6 p-2'>
-              <label htmlFor="message" className='block mb-2 text-md'>
+              <label htmlFor="message" className='block mb-2 text-md font-medium'>
                 
               </label>
 
