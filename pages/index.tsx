@@ -21,8 +21,7 @@ const Home: NextPage = () => {
               <label htmlFor="message" className='block mb-2 text-md font-medium text-gray-900'>
                 Write new memory here below
               </label>
-              <textarea rows={4} className='block p-2 w-full text-sm text-gray-900 bg-[#cc99cc] rounded-lg border-2 border-purple-400' placeholder='Write new memory here ...'>
-
+              <textarea rows={4} className='block p-2 w-full text-base text-gray-900 bg-[#cc99cc] rounded-lg border-2 border-purple-400' placeholder='Write new memory here ...'>
               </textarea>
 
             </form>
