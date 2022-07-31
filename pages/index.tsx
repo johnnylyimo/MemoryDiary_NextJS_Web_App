@@ -32,8 +32,8 @@ const Home: NextPage = () => {
             </form>
         </div>
         <div className="col-span-4 lg:col-span-3 h-[50vh]">
-            <h1>
-              
+            <h1 className='text-2xl'>
+
             </h1>
         </div>
       </section>
