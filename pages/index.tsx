@@ -33,7 +33,7 @@ const Home: NextPage = () => {
         </div>
         <div className="col-span-4 lg:col-span-3 h-[50vh]">
             <h1 className='text-2xl font-bold'>
-
+                Highlights
             </h1>
         </div>
       </section>
