@@ -19,7 +19,7 @@ const Home: NextPage = () => {
             </p>
             <form className='text-center mt-6 p-2'>
               <label htmlFor="message" className='block mb-2 text-md font-medium text-gray-900'>
-                Write new memory here below
+                Write new memory below
               </label>
               <textarea rows={4} className='block p-2 w-full text-base text-gray-900 bg-[#cc99cc] rounded-lg border-2 border-purple-400' placeholder='Write new memory here ...'>
               </textarea>
