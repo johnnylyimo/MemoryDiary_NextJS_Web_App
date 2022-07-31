@@ -14,6 +14,9 @@ const Home: NextPage = () => {
             <p className='text-xl font-bold text-center'>
               Today will be better than yesterday
             </p>
+            <p>
+              
+            </p>
 
         </div>
       </section>
