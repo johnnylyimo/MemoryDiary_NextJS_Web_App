@@ -8,7 +8,7 @@ const Home: NextPage = () => {
       </h1>
       <section className='grid grid-cols-1 lg:grid-cols-6 gap-6 p-10 self-stretch'>
         <div className='col-span-2 lg:col-span-3 h-[500px] bg-[#cc99cc] ml-12 lg:ml-0 rounded-lg'>
-            <h1 className='text-2xl text-center font-bold uppercase'>
+            <h1 className='text-2xl text-center font-bold uppercase pt-4'>
             World of the day
             </h1>
 
