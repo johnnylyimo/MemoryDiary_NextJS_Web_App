@@ -1,1 +1,1 @@
-import {Html} from 'next/document'
+import {Html, Head} from 'next/document'
