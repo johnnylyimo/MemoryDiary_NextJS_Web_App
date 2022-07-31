@@ -13,7 +13,7 @@ MemoryDiary App allow you record day to day memories that happen in your life. I
 
 print (" SHARING IS CARING ")
 
-fmt.Println ( " LET ME ALSO MAKE THE THE WORLD BETTER PLACE. ") ;
+fmt.Println (" THROUGH CODING LET ME ALSO MAKE THE THE WORLD BETTER PLACE. ")
 
 # Please Support me
 I will going on developing apps and share them here. If you like what am doing and the good spirit i have of sharing with you; please support me click buy me a coffee below. 
