@@ -15,7 +15,7 @@ const Home: NextPage = () => {
               Today will be better than yesterday
             </p>
             <p>
-              
+              Anytime something positive happens, make a note of it and come back to it later
             </p>
 
         </div>
