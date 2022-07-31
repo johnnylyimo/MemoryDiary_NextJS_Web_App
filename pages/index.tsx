@@ -12,7 +12,7 @@ const Home: NextPage = () => {
             World of the day
             </h1>
             <p>
-              
+              Today will be better than yesterday
             </p>
 
         </div>
