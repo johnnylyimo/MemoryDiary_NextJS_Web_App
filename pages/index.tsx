@@ -11,6 +11,9 @@ const Home: NextPage = () => {
             <h1 className='text-2xl text-center font-bold uppercase pt-4 tracking-wide'>
             World of the day
             </h1>
+            <p>
+              
+            </p>
 
         </div>
       </section>
