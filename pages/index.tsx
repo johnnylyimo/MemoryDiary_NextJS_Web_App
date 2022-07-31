@@ -17,7 +17,7 @@ const Home: NextPage = () => {
             <p className='text-xl text-center font-medium mt-6'>
               Anytime something positive happens, make a note of it and come back to it later
             </p>
-            <form className='text-center'>
+            <form className='text-center mt-5'>
 
             </form>
 
