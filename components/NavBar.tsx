@@ -4,7 +4,7 @@ export const NavBar = () => {
   return (
     <nav className="flex justify-center">
        <Link href="/">
-            <a className="text-4xl font-bold text-[#ac5eb9dc]">
+            <a className="text-4xl font-bold text-[#ac5eb9dc] underline">
                 Home
             </a>
        </Link>
