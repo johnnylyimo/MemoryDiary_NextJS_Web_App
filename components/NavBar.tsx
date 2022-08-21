@@ -2,7 +2,7 @@ import Link from "next/link"
 
 export const NavBar = () => {
   return (
-    <nav className="flex">
+    <nav className="flex justify-center">
        
     </nav>
   )
