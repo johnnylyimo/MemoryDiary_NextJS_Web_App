@@ -16,6 +16,7 @@ export default function Layout({meta, children}:LayoutProps){
     return (
         <>
             <NextHead title={meta.title} description={meta.description} />
+            <NavBar />
             {children}
         </>
     )
