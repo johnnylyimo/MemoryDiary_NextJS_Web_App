@@ -4,7 +4,7 @@ export const NavBar = () => {
   return (
     <nav className="flex justify-center">
        <Link href="/">
-        
+            <a></a>
        </Link>
     </nav>
   )
