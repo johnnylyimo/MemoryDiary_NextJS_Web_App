@@ -8,7 +8,7 @@ export default function Footer() {
   return (
     <footer className="w-full mb-6 p-4  bg-[#ce93d8] grid md:grid-cols-5 gap-4">
         <section className="md:col-span-2 text-center">
-            <Image />
+            <Image  src='/brand.png' />
 
         </section>
         
