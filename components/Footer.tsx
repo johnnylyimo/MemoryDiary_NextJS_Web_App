@@ -61,7 +61,7 @@ export default function Footer() {
                     </div>
                 </div>
             </div>
-            <hr />
+            <hr className="max-w-xxl" />
 
         </section>
         
