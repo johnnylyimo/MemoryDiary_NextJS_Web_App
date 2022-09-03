@@ -56,7 +56,7 @@ export default function Footer() {
                         <p>0715 291029</p>
                     </div>
                     <div className="flex justify-center gap-x-2">
-                        <MdEmail />
+                        <MdEmail size={25} />
                     </div>
                 </div>
                 
