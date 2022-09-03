@@ -22,7 +22,7 @@ export default function Footer() {
                         Follow Me
                     </h1>
                     <div className="grid gap-y-1">
-                        <Link>
+                        <Link href='https://github.com/johnnylyimo'>
                         </Link>
                     </div>
                     
