@@ -27,7 +27,7 @@ export default function Footer() {
                             </a>
                         </Link>
                         <Link href='https://twitter.com/johnnylyimo'>
-                            <a target={'_blank'} className='text-lg text-blue-500'>
+                            <a target={'_blank'} className='text-lg text-blue-500 font-bold'>
                                 Twitter
                             </a>
                         </Link>
