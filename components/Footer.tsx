@@ -48,7 +48,7 @@ export default function Footer() {
                     </div>
                 </div>
                 <div className="grid">
-                    <h1 className="font-bold">
+                    <h1 className="font-bold mb-2">
                         Contact Me
                     </h1>
                 </div>
