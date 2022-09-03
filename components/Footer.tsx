@@ -14,7 +14,7 @@ export default function Footer() {
             </p>
         </section>
 
-        <section className="md:col-span-3 gap-10 text-center">
+        <section className="grid md:col-span-3 gap-6 text-center">
             <div className="grid gap-y-6 md:flex md:justify-around">
                 <div className="grid">
                     <h1 className="font-bold mb-2">
@@ -62,7 +62,7 @@ export default function Footer() {
                 </div>
             </div>
             <hr className="max-w-xxl border-t-2 border-[#ac5eb9dc]" />
-            <div className="grid text-xl font-bold">
+            <div className="grid text-xl font-semibold">
                 <p>&copy; {year} MolysTechie. All Rights Reserved</p>
             </div>
 
