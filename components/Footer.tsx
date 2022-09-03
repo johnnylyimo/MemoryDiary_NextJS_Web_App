@@ -10,11 +10,12 @@ export default function Footer() {
         <section className="md:col-span-2 text-center">
             <Image  src='/brand.png' width={180} height={120} layout='fixed' />
             <p>
-                 MolysTechie is tech startup, specialized on developing Mobile Apps, Web Apps and Wep APIs. It's senior Developer is John L. Lyimo, the guy who developed this Website that is powered by Flutter and hosted on GitHub pages.
+                 MolysTechie is tech startup, specialized on developing Mobile Apps, Web Apps and Wep APIs. It's senior Developer is John L. Lyimo, the guy who developed this Website using Next.js Framework that is built on top of React and hosted on Vercel, the company developed Next.js Framework.
             </p>
         </section>
-        <section>
-            
+
+        <section className="md:col-span-3">
+
         </section>
         
     </footer>
