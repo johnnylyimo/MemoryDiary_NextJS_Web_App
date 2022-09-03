@@ -49,7 +49,7 @@ export default function Footer() {
                 </div>
                 <div className="grid">
                     <h1>
-                        
+                        Contact Me
                     </h1>
                 </div>
                 
