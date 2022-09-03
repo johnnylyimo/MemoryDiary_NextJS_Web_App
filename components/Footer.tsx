@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import {MdPhone,  MdLocationPin, MdEmail} from 'react-icons/md'
-import Link from "next/link";
 
 
 export default function Footer() {
@@ -24,7 +23,7 @@ export default function Footer() {
                     <div className="grid gap-y-1">
                         <Link href='https://github.com/johnnylyimo'>
                             <a target={'_blank'} className='text-lg text-blue-500 font-bold'>
-
+                                Github
                             </a>
                         </Link>
                     </div>
