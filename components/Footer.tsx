@@ -63,6 +63,7 @@ export default function Footer() {
             </div>
             <hr className="max-w-xxl border-t-2 border-[#ac5eb9dc]" />
             <div className="grid ">
+                <p></p>
                 
             </div>
 
