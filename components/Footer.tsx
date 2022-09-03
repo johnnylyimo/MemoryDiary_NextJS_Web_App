@@ -61,7 +61,7 @@ export default function Footer() {
                     </div>
                 </div>
             </div>
-            <hr className="max-w-xxl border-t-2" />
+            <hr className="max-w-xxl border-t-2 border-[#ac5eb9dc]" />
 
         </section>
         
