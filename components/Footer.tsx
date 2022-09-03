@@ -47,6 +47,9 @@ export default function Footer() {
                         Buni at Costech Building, Sayansi, Dar-es-Salaam.
                     </div>
                 </div>
+                <div >
+
+                </div>
                 
             </div>
 
