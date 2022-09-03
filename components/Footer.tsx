@@ -60,8 +60,8 @@ export default function Footer() {
                         <p>molystechie@gmail.com</p>
                     </div>
                 </div>
-                
             </div>
+            <hr />
 
         </section>
         
