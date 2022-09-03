@@ -62,9 +62,8 @@ export default function Footer() {
                 </div>
             </div>
             <hr className="max-w-xxl border-t-2 border-[#ac5eb9dc]" />
-            <div className="grid ">
+            <div className="grid text-xl">
                 <p>&copy; {year} MolysTechie. All Rights Reserved</p>
-                
             </div>
 
         </section>
