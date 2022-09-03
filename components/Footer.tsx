@@ -55,6 +55,9 @@ export default function Footer() {
                         <MdPhone size={25}/>
                         <p>0715 291029</p>
                     </div>
+                    <div >
+
+                    </div>
                 </div>
                 
             </div>
