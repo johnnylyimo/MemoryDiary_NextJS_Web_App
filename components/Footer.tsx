@@ -48,7 +48,9 @@ export default function Footer() {
                     </div>
                 </div>
                 <div className="grid">
-                    
+                    <h1>
+                        
+                    </h1>
                 </div>
                 
             </div>
