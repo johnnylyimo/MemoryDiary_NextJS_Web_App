@@ -43,7 +43,7 @@ export default function Footer() {
                         Find Me
                     </h1>
                     <div className="flex justify-center">
-                        
+                        <MdLocationPin />
                     </div>
                 </div>
                 
