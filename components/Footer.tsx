@@ -52,7 +52,7 @@ export default function Footer() {
                         Contact Me
                     </h1>
                     <div className="flex justify-center gap-x-2">
-                        <MdPhone />
+                        <MdPhone size={25}/>
                     </div>
                 </div>
                 
