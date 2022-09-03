@@ -32,7 +32,7 @@ export default function Footer() {
                             </a>
                         </Link>
                         <Link href="https://www.linkedin.com/in/johnnylyimo">
-                            <a target={'_blank'} className='text-lg text-blue-500'>
+                            <a target={'_blank'} className='text-lg text-blue-500 font-bold'>
                                 LinkedIn
                             </a>
                         </Link>
