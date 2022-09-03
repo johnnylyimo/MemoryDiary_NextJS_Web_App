@@ -31,7 +31,7 @@ export default function Footer() {
                                 Twitter
                             </a>
                         </Link>
-                        <Link>
+                        <Link href="https://www.linkedin.com/in/johnnylyimo">
                             <a></a>
                         </Link>
                     </div>
