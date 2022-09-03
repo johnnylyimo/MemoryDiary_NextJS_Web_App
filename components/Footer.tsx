@@ -14,7 +14,7 @@ export default function Footer() {
             </p>
         </section>
 
-        <section className="md:col-span-3 gap-10">
+        <section className="md:col-span-3 gap-10 text-center">
 
         </section>
         
