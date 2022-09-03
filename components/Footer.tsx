@@ -51,7 +51,7 @@ export default function Footer() {
                     <h1 className="font-bold mb-2">
                         Contact Me
                     </h1>
-                    <div className="flex">
+                    <div className="flex justify-center">
                         
                     </div>
                 </div>
