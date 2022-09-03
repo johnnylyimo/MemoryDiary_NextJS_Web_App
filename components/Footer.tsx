@@ -18,7 +18,7 @@ export default function Footer() {
             <div className="grid gap-y-6 md:flex md:justify-around">
                 <div className="flex-col">
                     <h1 className="font-bold mb-2">
-
+                        Follow Me
                     </h1>
                     
                 </div>
