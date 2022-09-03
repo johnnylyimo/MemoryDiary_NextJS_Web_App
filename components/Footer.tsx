@@ -23,7 +23,7 @@ export default function Footer() {
                     </h1>
                     <div className="grid gap-y-1">
                         <Link href='https://github.com/johnnylyimo'>
-                            <a target={'_blank'}>
+                            <a target={'_blank'} className='text-lg'>
 
                             </a>
                         </Link>
