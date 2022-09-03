@@ -6,7 +6,7 @@ import {MdPhone,  MdLocationPin, MdEmail} from 'react-icons/md'
 export default function Footer() {
     const year = new Date().getFullYear();
   return (
-    <footer>
+    <footer className="w-full">
         
     </footer>
 	
