@@ -9,7 +9,9 @@ export default function Footer() {
     <footer className="w-full mb-6 p-4  bg-[#ce93d8] grid md:grid-cols-5 gap-4">
         <section className="md:col-span-2 text-center">
             <Image  src='/brand.png' width={180} height={120} layout='fixed' />
-            <p></p>
+            <p>
+                 MolysTechie is tech startup, specialized on developing Mobile Apps, Web Apps and Wep APIs. It's senior Developer is John L. Lyimo, the guy who developed this Website that is powered by Flutter and hosted on GitHub pages.
+            </p>
 
         </section>
         
