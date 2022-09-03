@@ -53,7 +53,7 @@ export default function Footer() {
                     </h1>
                     <div className="flex justify-center gap-x-2">
                         <MdPhone size={25}/>
-                        <p></p>
+                        <p>0715 291029</p>
                     </div>
                 </div>
                 
