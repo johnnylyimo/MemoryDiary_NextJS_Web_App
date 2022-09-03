@@ -44,6 +44,7 @@ export default function Footer() {
                     </h1>
                     <div className="flex justify-center">
                         <MdLocationPin size={25} />
+                        Buni at Costech Building, Sayansi, Dar-es-Salaam.
                     </div>
                 </div>
                 
