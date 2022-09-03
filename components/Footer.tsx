@@ -12,7 +12,9 @@ export default function Footer() {
             <p>
                  MolysTechie is tech startup, specialized on developing Mobile Apps, Web Apps and Wep APIs. It's senior Developer is John L. Lyimo, the guy who developed this Website that is powered by Flutter and hosted on GitHub pages.
             </p>
-
+        </section>
+        <section>
+            
         </section>
         
     </footer>
