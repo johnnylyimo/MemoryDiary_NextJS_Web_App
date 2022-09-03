@@ -32,7 +32,9 @@ export default function Footer() {
                             </a>
                         </Link>
                         <Link href="https://www.linkedin.com/in/johnnylyimo">
-                            <a></a>
+                            <a>
+                                LinkedIn
+                            </a>
                         </Link>
                     </div>
                     
