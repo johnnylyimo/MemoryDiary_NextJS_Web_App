@@ -15,8 +15,8 @@ export default function Footer() {
         </section>
 
         <section className="md:col-span-3 gap-10 text-center">
-            <div >
-
+            <div className="grid">
+                
             </div>
 
         </section>
