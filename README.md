@@ -8,7 +8,7 @@ For more visit: https://nextjs.org/
 
 
 ## MemoryDiary this time is Web App developed using Next.js
-MemoryDiary App allow you record day to day memories that happen in your life. It pretty amazing app. Previous it was developed for Android mobile App using Flutter, then Flutter Web App and Flutter Desktop App; all these projects are here,  you can find them in my GitHub repositories.
+MemoryDiary App allow you record day to day memories that happen in your life. It pretty amazing app. Previous it was developed for Android mobile App using Flutter, then Flutter Web App and Flutter Desktop App; all these projects are here,  you can find them in my GitHub repositories..
 
 
 print (" SHARING IS CARING ")
