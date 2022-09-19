@@ -11,9 +11,13 @@ For more visit: https://nextjs.org/
 MemoryDiary App allow you record day to day memories that happen in your life. It pretty amazing app. Previous it was developed for Android mobile App using Flutter, then Flutter Web App and Flutter Desktop App; all these projects are here,  you can find them in my GitHub repositories..
 
 
-print (" SHARING IS CARING ")
+	```
+	print (" SHARING IS CARING ")
+	```
 
-fmt.Println (" THROUGH CODING LET ME ALSO MAKE THE THE WORLD BETTER PLACE. ")
+	```
+	fmt.Println (" THROUGH CODING LET ME ALSO MAKE THE THE WORLD BETTER PLACE. ")
+	```
 
 # Please Support me
 I will going on developing apps and share them here. If you like what am doing and the good spirit i have of sharing with you; please support me click buy me a coffee below. 
