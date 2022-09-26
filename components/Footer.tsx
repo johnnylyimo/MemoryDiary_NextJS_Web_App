@@ -20,10 +20,10 @@ export default function Footer() {
                     <h1 className="font-bold mb-2">
                         Follow Me
                     </h1>
-                    <div className="grid gap-y-1">
+                    <div className="flex gap-y-1">
                         <Link href='https://github.com/johnnylyimo'>
                             <a target={'_blank'} className='text-lg text-blue-500 font-bold'>
-                                Github
+                                GitHub
                             </a>
                         </Link>
                         <Link href='https://twitter.com/johnnylyimo'>
@@ -44,7 +44,7 @@ export default function Footer() {
                     </h1>
                     <div className="flex justify-center gap-x-1">
                         <MdLocationPin size={25} />
-                        Buni at Costech Building, Sayansi, Dar-es-Salaam.
+                        Buni at Costech Building, Sayansi, Dar-es-Salaam
                     </div>
                 </div>
                 <div className="flex flex-col gap-2">
