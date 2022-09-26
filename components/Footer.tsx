@@ -16,8 +16,8 @@ export default function Footer() {
 
         <section className="grid md:col-span-3 gap-6 text-center">
             <div className="grid gap-y-6 md:flex md:justify-around">
-                <div className="flex flex-col">
-                    <h1 className="font-bold mb-2">
+                <div className="flex flex-col gap-y-2">
+                    <h1 className="font-bold ">
                         Follow Me
                     </h1>
                     <div className="grid gap-y-1">
@@ -38,7 +38,7 @@ export default function Footer() {
                         </Link>
                     </div>
                 </div>
-                <div className="flex flex-col gap-2">
+                <div className="flex flex-col gap-y-2">
                     <h1 className="font-bold mb-2">
                         Find Me
                     </h1>
@@ -47,7 +47,7 @@ export default function Footer() {
                         Buni at Costech Building, Sayansi, Dar-es-Salaam
                     </div>
                 </div>
-                <div className="flex flex-col gap-2">
+                <div className="flex flex-col gap-y-2">
                     <h1 className="font-bold">
                         Contact Me
                     </h1>
