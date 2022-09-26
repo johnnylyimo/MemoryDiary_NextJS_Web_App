@@ -38,7 +38,7 @@ export default function Footer() {
                         </Link>
                     </div>
                 </div>
-                <div className="grid">
+                <div className="flex">
                     <h1 className="font-bold mb-2">
                         Find Me
                     </h1>
