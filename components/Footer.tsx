@@ -16,11 +16,11 @@ export default function Footer() {
 
         <section className="grid md:col-span-3 gap-6 text-center">
             <div className="grid gap-y-6 md:flex md:justify-around">
-                <div className="grid">
+                <div className="flex flex-col">
                     <h1 className="font-bold mb-2">
                         Follow Me
                     </h1>
-                    <div className="flex gap-y-1">
+                    <div className="grid gap-y-1">
                         <Link href='https://github.com/johnnylyimo'>
                             <a target={'_blank'} className='text-lg text-blue-500 font-bold'>
                                 GitHub
