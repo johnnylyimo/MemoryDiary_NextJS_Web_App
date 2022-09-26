@@ -47,7 +47,7 @@ export default function Footer() {
                         Buni at Costech Building, Sayansi, Dar-es-Salaam.
                     </div>
                 </div>
-                <div className="flex">
+                <div className="flex flex-col">
                     <h1 className="font-bold">
                         Contact Me
                     </h1>
