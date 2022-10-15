@@ -15,4 +15,5 @@ model Memory {
   id String @id @default(cuid())
   title String? 
   memory String
+  createdAt DateTime @default(now())
 }
