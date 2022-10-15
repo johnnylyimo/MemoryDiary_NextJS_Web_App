@@ -11,4 +11,6 @@ datasource db {
 }
 
 
-model Memory {}
+model Memory {
+  id String @id @default(cuid())
+}
