@@ -3,4 +3,5 @@ import { PrismaClient } from "@prisma/client";
 
 // allow global `var` declarations
 declare global {
+  var prisma: PrismaClient | undefined;
 }
