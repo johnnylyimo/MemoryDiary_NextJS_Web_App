@@ -1,5 +1,6 @@
 import type { NextPage } from 'next'
 import { Memory } from "@prisma/client";
+import { useRouter } from 'next/router'
 
 // To fetch data from api
 export const getServerSideProps = async () => {
