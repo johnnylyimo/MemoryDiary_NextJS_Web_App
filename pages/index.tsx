@@ -2,7 +2,7 @@ import type { NextPage } from 'next'
 
 const Home: NextPage = () => {
   return (
-    <main className='w-full h-full p-2 my-10 grid grid-cols-1 lg:grid-cols-6 self-stretch'>
+    <main className='w-full h-full p-2 my-10 grid grid-cols-1 lg:grid-cols-6 lg:space-x-6 self-stretch'>
         <section className='col-span-2 lg:col-span-3 bg-[#ce93d8] ml-0 lg:ml-0 rounded-lg border border-black'>
             <h1 className='text-2xl text-center font-bold uppercase pt-4 tracking-wide'>
             World of the day
