@@ -44,7 +44,7 @@ const Home: NextPage<HomeProps>  = ({memories}) => {
               Anytime something positive happens, make a note of it and come back to it later
             </p>
             <form className='text-center mt-6 p-2'  onSubmit={onSubmitMemory}>
-              <label >
+              <label htmlFor='memory'>
 
               </label>
               <label htmlFor="memory" className='inline-block mb-1 text-md font-medium text-gray-900'>
