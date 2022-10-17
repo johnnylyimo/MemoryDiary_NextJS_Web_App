@@ -43,7 +43,7 @@ const Home: NextPage<HomeProps>  = ({memories}) => {
             <p className='text-xl text-center font-medium mt-6'>
               Anytime something positive happens, make a note of it and come back to it later
             </p>
-            <form className='text-center mt-6 p-2'>
+            <form className='text-center mt-6 p-2'  onSubmit={onSubmitMemory}>
               <label htmlFor="message" className='block mb-2 text-md font-medium text-gray-900'>
                 Write new memory below
               </label>
