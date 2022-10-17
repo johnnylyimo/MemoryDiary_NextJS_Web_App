@@ -2,7 +2,7 @@ import type { NextPage } from 'next'
 import { Memory } from "@prisma/client";
 import { useRouter } from 'next/router'
 import { useState,FormEventHandler } from 'react';
-import {MdNotes} from 'react-icons/md'
+import {MdNotes, MdEdit} from 'react-icons/md'
 
 // To fetch data from api
 export const getServerSideProps = async () => {
