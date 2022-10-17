@@ -18,7 +18,7 @@ export default async function handler(
             return console.log(error);
         }
         if (!memories) {
-          
+            return res.status(404).json({ error: "No memories data"});
         }
     }
 
