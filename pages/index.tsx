@@ -74,7 +74,9 @@ const Home: NextPage<HomeProps>  = ({memories}) => {
 
             {
               memories.map(({memory, id}) =>(
-                <div key={id} className="w-full bg-white flex justify-between space-x-4 text-black rounded-md p-2 m-2 cursor-pointer">
+                <div key={id} className="w-full bg-white flex justify-between space-x-4 text-black rounded-md p-2 m-2 cursor-pointer" onClick={() => {
+                  
+                } >
 
                 </div>
               ))
