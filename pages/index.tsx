@@ -5,7 +5,7 @@ export const getServerSideProps = async () => {
   const res = await fetch(
     `http://localhost:3000/api/read_create`
   );
-  
+  const memories: Memory[] = await res.json();
 }
 
 const Home: NextPage = () => {
