@@ -1,7 +1,9 @@
 import type { NextPage } from 'next'
 
 export const getServerSideProps = async () => {
-  
+  const res = await fetch(
+    `http://localhost:3000/api/read_create`
+  );
 }
 
 const Home: NextPage = () => {
