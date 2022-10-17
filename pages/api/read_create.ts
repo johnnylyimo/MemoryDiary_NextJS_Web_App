@@ -32,8 +32,13 @@ export default async function handler(
           memory,
         },
       });
+      //new memory created successfully
       res.status(200).json(newMemory);
-    } catch (error) {}
+    } catch (error) {
+      return res
+        .status(400)
+        .json({ error: "Unsuccesfully, new memory failed to be created" });
+    }
   } else {
     return res.status(405).json({ error: "Wrong request" });
   }
