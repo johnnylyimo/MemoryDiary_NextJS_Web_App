@@ -1,5 +1,9 @@
 import type { NextPage } from 'next'
 
+export const getServerSideProps = async () => {
+  
+}
+
 const Home: NextPage = () => {
   return (
     <main className='w-full h-full p-4 my-10 grid grid-cols-1 lg:grid-cols-6'>
