@@ -2,9 +2,8 @@ import type { NextPage } from 'next'
 
 const Home: NextPage = () => {
   return (
-    <main className='flex flex-col items-center space-y-4 w-full h-full p-8 '>
-      <section className='grid grid-cols-1 lg:grid-cols-6 gap-6 p-10 self-stretch'>
-        <div className='col-span-2 lg:col-span-3 h-[780px] sm:h-[500px] bg-[#ce93d8] ml-12 lg:ml-0 rounded-lg'>
+    <main className='w-full h-full p-2 my-10 grid grid-cols-1 lg:grid-cols-6 self-stretch'>
+        <section className='col-span-2 lg:col-span-3 bg-[#ce93d8] ml-0 lg:ml-0 rounded-lg border border-black'>
             <h1 className='text-2xl text-center font-bold uppercase pt-4 tracking-wide'>
             World of the day
             </h1>
@@ -27,13 +26,12 @@ const Home: NextPage = () => {
                 Remember the good times
               </label>
             </form>
-        </div>
-        <div className="col-span-4 lg:col-span-3 h-[50vh]">
+        </section>
+        <section className="col-span-4 lg:col-span-3 h-[50vh]">
             <h1 className='text-2xl font-bold'>
                 Highlights
             </h1>
-        </div>
-      </section>
+        </section>
     </main>
   )
 }
