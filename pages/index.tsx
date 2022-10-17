@@ -79,7 +79,7 @@ const Home: NextPage<HomeProps>  = ({memories}) => {
                   setEditMemoryPopUp(true)
                   setEditedMemory({id:id, memory: memory})
                 }} >
-                  <MdNotes />
+                  <MdNotes size={25}/>
                 </div>
               ))
             }
