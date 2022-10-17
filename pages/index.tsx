@@ -81,6 +81,7 @@ const Home: NextPage<HomeProps>  = ({memories}) => {
                 }} >
                   <MdNotes size={25}/>
                   <p>{memory}</p>
+                  <MdEdit  />
                 </div>
               ))
             }
