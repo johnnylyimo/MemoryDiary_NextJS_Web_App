@@ -44,9 +44,13 @@ const Home: NextPage<HomeProps>  = ({memories}) => {
               Anytime something positive happens, make a note of it and come back to it later
             </p>
             <form className='text-center mt-6 p-2'  onSubmit={onSubmitMemory}>
-              <label htmlFor="message" className='block mb-2 text-md font-medium text-gray-900'>
+              <label >
+
+              </label>
+              <label htmlFor="memory" className='inline-block mb-1 text-md font-medium text-gray-900'>
                 Write new memory below
               </label>
+             
               <textarea rows={4} value={inputedMemory.memory || ""}  className='block p-2 w-full text-base text-gray-900 bg-[#ce93d8] rounded-lg border-4 border-[#ac5eb9dc] focus:outline-none' placeholder='Write new memory here ...' onChange={({target})=> setInputedMemory({...inputedMemory, memory: target.value})}>
               </textarea>
               <button type="submit"  className='bg-[#ac5eb9dc]  py-2 px-3 mt-6 text-2xl font-medium text-white cursor-pointer rounded-lg hover:bg-[#800080]'>
