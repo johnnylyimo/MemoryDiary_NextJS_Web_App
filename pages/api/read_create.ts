@@ -17,7 +17,9 @@ export default async function handler(
         } catch (error) {
             return console.log(error);
         }
-     
+        if (!memories) {
+          
+        }
     }
 
   }
