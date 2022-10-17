@@ -11,7 +11,8 @@ export default async function handler(
     res: NextApiResponse<Memory | Memory[] | ErrorResponse>
   ) {
     if (req.method === "GET"){
-      
+        let memories:Memory[] = [];
+        
     }
 
   }
