@@ -28,10 +28,11 @@ export default async function handler(
     try {
       newMemory = await prisma.memory.create({
         data: {
-            title,
-            memory
-          },
+          title,
+          memory,
+        },
       });
+      res.status(200).json(newMemory);
     } catch (error) {}
   } else {
     return res.status(405).json({ error: "Wrong request" });
