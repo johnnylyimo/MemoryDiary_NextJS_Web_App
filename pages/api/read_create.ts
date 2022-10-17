@@ -20,6 +20,8 @@ export default async function handler(
         if (!memories) {
             return res.status(404).json({ error: "No memories data"});
         }
+        // successfully response, memories data found
+        res.status(200).json(memories);
     }
 
   }
