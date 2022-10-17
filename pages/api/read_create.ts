@@ -7,7 +7,8 @@ type ErrorResponse = {
 }
 
 export default async function handler(
-    
+    req: NextApiRequest,
+   
   ) {
 
   }
