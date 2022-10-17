@@ -18,13 +18,14 @@ export default async function handler(
             return console.log(error);
         }
         if (!memories) {
-            return res.status(404).json({ error: "No memories data"});
+            return res.status(404).json({ error: "No memories data found"});
         }
         // successfully response, memories data found
         res.status(200).json(memories);
     } 
     else if (req.method === "POST") {
-        
+        const { title, memory } = req.body;
+
     }
     else{
         return res.status(405).json({ error: "Wrong request"});
