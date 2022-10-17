@@ -12,7 +12,12 @@ export default async function handler(
   ) {
     if (req.method === "GET"){
         let memories:Memory[] = [];
-        
+        try {
+            
+        } catch (error) {
+            
+        }
+     
     }
 
   }
