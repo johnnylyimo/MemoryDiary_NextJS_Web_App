@@ -74,7 +74,7 @@ const Home: NextPage<HomeProps>  = ({memories}) => {
 
             {
               memories.map(({memory, id}) =>(
-                <div key={id} className="w-full bg-white flex justify-between space-x-4 text-black">
+                <div key={id} className="w-full bg-white flex justify-between space-x-4 text-black rounded-md">
 
                 </div>
               ))
