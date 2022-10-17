@@ -74,8 +74,8 @@ const Home: NextPage<HomeProps>  = ({memories}) => {
 
             {
               memories.map(({memory, id}) =>(
-                <div className="">
-                  
+                <div key={id} className="">
+
                 </div>
               ))
             }
