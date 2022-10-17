@@ -1,7 +1,7 @@
 import type { NextPage } from 'next'
 import { Memory } from "@prisma/client";
 import { useRouter } from 'next/router'
-import { useState } from 'react';
+import { useState,FormEventHandler } from 'react';
 
 // To fetch data from api
 export const getServerSideProps = async () => {
@@ -25,6 +25,8 @@ const Home: NextPage<HomeProps>  = ({memories}) => {
     title: "",
     memory: ""
   });
+
+  
   return (
     <main className='w-full h-full p-4 my-10 grid grid-cols-1 lg:grid-cols-6'>
         <section className='col-span-2 lg:col-span-3 bg-[#ce93d8] rounded-lg m-4 '>
