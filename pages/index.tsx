@@ -12,7 +12,9 @@ export const getServerSideProps = async () => {
   }
 }
 
-interface HomeProps{}
+interface HomeProps{
+  memories: Memory[]
+}
 
 const Home: NextPage = () => {
   return (
