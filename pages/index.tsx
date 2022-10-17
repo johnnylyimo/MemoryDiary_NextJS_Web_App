@@ -26,6 +26,10 @@ const Home: NextPage<HomeProps>  = ({memories}) => {
     title: "",
     memory: ""
   });
+  const [editedMemory, setEditedMemory] = useState({
+    id: "",
+    memory: ""
+  });
 
   const onSubmitMemory:FormEventHandler<HTMLFormElement> = async (e) =>{
     e.preventDefault()
