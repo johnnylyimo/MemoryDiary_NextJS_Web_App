@@ -25,6 +25,7 @@ export default async function handler(
     } 
     else if (req.method === "POST") {
         const { title, memory } = req.body;
+        let newMemory: Memory;
 
     }
     else{
