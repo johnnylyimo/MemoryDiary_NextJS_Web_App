@@ -5,3 +5,9 @@ import { Memory } from "@prisma/client";
 type ErrorResponse = {
     error: Object;
 }
+
+export default async function handler(
+    
+  ) {
+
+  }
