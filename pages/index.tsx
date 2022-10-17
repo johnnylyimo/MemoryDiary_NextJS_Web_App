@@ -73,7 +73,11 @@ const Home: NextPage<HomeProps>  = ({memories}) => {
             </h1>
 
             {
-              memories.map(({memory, id}) =>())
+              memories.map(({memory, id}) =>(
+                <div className="">
+                  
+                </div>
+              ))
             }
 
         </section>
