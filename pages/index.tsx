@@ -2,8 +2,8 @@ import type { NextPage } from 'next'
 
 const Home: NextPage = () => {
   return (
-    <main className='w-full h-full p-2 my-10 grid grid-cols-1 gap-6 lg:grid-cols-6  self-stretch'>
-        <section className='col-span-2 lg:col-span-3 bg-[#ce93d8] ml-0 lg:ml-0 rounded-lg border border-black'>
+    <main className='w-full h-full p-4 my-10 grid grid-cols-1 lg:grid-cols-6'>
+        <section className='col-span-2 lg:col-span-3 bg-[#ce93d8] rounded-lg m-4 '>
             <h1 className='text-2xl text-center font-bold uppercase pt-4 tracking-wide'>
             World of the day
             </h1>
@@ -27,7 +27,7 @@ const Home: NextPage = () => {
               </label>
             </form>
         </section>
-        <section className="col-span-4 lg:col-span-3 h-[50vh]">
+        <section className="col-span-4 lg:col-span-3 h-[50vh] m-4">
             <h1 className='text-2xl font-bold'>
                 Highlights
             </h1>
