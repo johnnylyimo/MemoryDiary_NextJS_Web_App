@@ -29,7 +29,7 @@ export default async function handler(
       newMemory = await prisma.memory.create({
         data: {
             title,
-          
+            memory
           },
       });
     } catch (error) {}
