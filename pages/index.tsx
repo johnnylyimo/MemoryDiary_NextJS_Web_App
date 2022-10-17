@@ -81,7 +81,7 @@ const Home: NextPage<HomeProps>  = ({memories}) => {
                 }} >
                   <MdNotes size={25}/>
                   <p>{memory}</p>
-                  <MdEdit size={25} className='cursor-pointer' onClick={}/>
+                  <MdEdit size={25} className='cursor-pointer' onClick={() => setEditMemoryPopUp(true)}/>
                 </div>
               ))
             }
