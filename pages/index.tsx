@@ -1,11 +1,15 @@
 import type { NextPage } from 'next'
 import { Memory } from "@prisma/client";
 
+// To fetch data from api
 export const getServerSideProps = async () => {
   const res = await fetch(
     `http://localhost:3000/api/read_create`
   );
   const memories: Memory[] = await res.json();
+  return {
+    props: {memories}
+  }
 }
 
 const Home: NextPage = () => {
