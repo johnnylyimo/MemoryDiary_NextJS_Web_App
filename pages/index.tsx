@@ -21,6 +21,7 @@ interface HomeProps{
 const Home: NextPage<HomeProps>  = ({memories}) => {
   const router =useRouter()
   const [isEmptyMemory, setIsEmptyMemory] = useState(false)
+  const [editMemoryPopUp, setEditMemoryPopUp]=useState(false);
   const [inputedMemory, setInputedMemory] = useState({
     title: "",
     memory: ""
@@ -51,7 +52,7 @@ const Home: NextPage<HomeProps>  = ({memories}) => {
                 Write new memory below
               </label>
             }
-            
+
               <textarea rows={4} value={inputedMemory.memory || ""}  className='block p-2 w-full text-base text-gray-900 bg-[#ce93d8] rounded-lg border-4 border-[#ac5eb9dc] focus:outline-none' placeholder='Write new memory here ...' onChange={({target})=> setInputedMemory({...inputedMemory, memory: target.value})}>
               </textarea>
               <button type="submit"  className='bg-[#ac5eb9dc]  py-2 px-3 mt-6 text-2xl font-medium text-white cursor-pointer rounded-lg hover:bg-[#800080]'>
@@ -66,6 +67,9 @@ const Home: NextPage<HomeProps>  = ({memories}) => {
             <h1 className='text-2xl font-bold'>
                 Highlights
             </h1>
+
+            
+
         </section>
     </main>
   )
