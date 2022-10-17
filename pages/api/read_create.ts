@@ -22,7 +22,11 @@ export default async function handler(
         }
         // successfully response, memories data found
         res.status(200).json(memories);
-    } else{
+    } 
+    else if (req.method === "POST") {
+        
+    }
+    else{
         return res.status(405).json({ error: "Wrong request"});
     }
 
