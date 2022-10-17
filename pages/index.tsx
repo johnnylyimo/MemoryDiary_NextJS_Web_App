@@ -16,7 +16,7 @@ interface HomeProps{
   memories: Memory[]
 }
 
-const Home: NextPage = () => {
+const Home: NextPage<HomeProps>  = ({memories}) => {
   return (
     <main className='w-full h-full p-4 my-10 grid grid-cols-1 lg:grid-cols-6'>
         <section className='col-span-2 lg:col-span-3 bg-[#ce93d8] rounded-lg m-4 '>
