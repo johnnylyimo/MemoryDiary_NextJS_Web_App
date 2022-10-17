@@ -34,6 +34,7 @@ const Home: NextPage<HomeProps>  = ({memories}) => {
 
   const onSubmitMemory:FormEventHandler<HTMLFormElement> = async (e) =>{
     e.preventDefault()
+    if (inputedMemory.memory !== ""){}
   }
 
 
