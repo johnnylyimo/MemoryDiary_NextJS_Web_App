@@ -27,7 +27,10 @@ export default async function handler(
     let newMemory: Memory;
     try {
       newMemory = await prisma.memory.create({
-       
+        data: {
+            title,
+          
+          },
       });
     } catch (error) {}
   } else {
