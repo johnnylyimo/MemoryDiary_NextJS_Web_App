@@ -80,6 +80,7 @@ const Home: NextPage<HomeProps>  = ({memories}) => {
                   setEditedMemory({id:id, memory: memory})
                 }} >
                   <MdNotes size={25}/>
+                  <p></p>
                 </div>
               ))
             }
