@@ -13,7 +13,11 @@ export default async function handler(
   if (req.method === "GET") {
     let memories: Memory[] = [];
     try {
-      memories = await prisma.memory.findMany();
+      memories = await prisma.memory.findMany({
+        orderBy:{
+         
+        }}
+      );
     } catch (error) {
       return console.log(error);
     }
