@@ -37,7 +37,9 @@ const Home: NextPage<HomeProps>  = ({memories}) => {
   const onSubmitMemory:FormEventHandler<HTMLFormElement> = async (e) =>{
     e.preventDefault()
     if (inputedMemory.memory !== ""){
-      const response = await fetch('')
+      const response = await fetch('/api/read_create', {
+        
+      })
     }
   }
 
