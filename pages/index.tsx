@@ -4,6 +4,8 @@ import { useRouter } from 'next/router'
 import { useState,FormEventHandler } from 'react';
 import {MdNotes, MdEdit} from 'react-icons/md'
 
+// Continuation of this project check prisma_app on pages/memory.tsx
+
 // To fetch data from api
 export const getServerSideProps = async () => {
   const res = await fetch(
@@ -34,7 +36,9 @@ const Home: NextPage<HomeProps>  = ({memories}) => {
 
   const onSubmitMemory:FormEventHandler<HTMLFormElement> = async (e) =>{
     e.preventDefault()
-    if (inputedMemory.memory !== ""){}
+    if (inputedMemory.memory !== ""){
+      const response = await fetch('')
+    }
   }
 
 
