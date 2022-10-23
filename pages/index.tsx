@@ -49,6 +49,7 @@ const Home: NextPage<HomeProps>  = ({memories}) => {
       })
 
       const newMemory = await response.json()
+      setInputedMemory({memory: "", title:''});
     }
   }
 
