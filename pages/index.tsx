@@ -44,6 +44,7 @@ const Home: NextPage<HomeProps>  = ({memories}) => {
         },
         body: JSON.stringify({
           memory: inputedMemory.memory,
+          title: inputedMemory.memory.slice(0, inputedMemory.memory.length)
         })
       })
     }
