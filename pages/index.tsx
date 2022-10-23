@@ -34,6 +34,7 @@ const Home: NextPage<HomeProps>  = ({memories}) => {
     memory: ""
   });
 
+  // method to handle on adding new memory
   const onSubmitMemory:FormEventHandler<HTMLFormElement> = async (e) =>{
     e.preventDefault()
     if (inputedMemory.memory !== ""){
@@ -56,7 +57,15 @@ const Home: NextPage<HomeProps>  = ({memories}) => {
     }
   }
 
-  const submitEditMemory = async () =>{}
+// method to handle on editing memory
+  const submitEditMemory = async () =>{
+
+  }
+
+// method to handle on deleting memory
+  const submitDeleteMemory = async () =>{
+
+  }
 
 
   return (
