@@ -38,7 +38,7 @@ const Home: NextPage<HomeProps>  = ({memories}) => {
     e.preventDefault()
     if (inputedMemory.memory !== ""){
       const response = await fetch('/api/read_create', {
-        
+        method: "POST",
       })
     }
   }
