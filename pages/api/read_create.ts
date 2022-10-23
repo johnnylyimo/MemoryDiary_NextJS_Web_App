@@ -15,7 +15,7 @@ export default async function handler(
     try {
       memories = await prisma.memory.findMany({
         orderBy:{
-         
+          id: 'desc'
         }}
       );
     } catch (error) {
