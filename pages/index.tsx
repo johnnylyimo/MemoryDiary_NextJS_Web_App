@@ -47,6 +47,8 @@ const Home: NextPage<HomeProps>  = ({memories}) => {
           title: inputedMemory.memory.slice(0, inputedMemory.memory.length)
         })
       })
+
+      const newMemory = await response.json()
     }
   }
 
