@@ -43,7 +43,7 @@ const Home: NextPage<HomeProps>  = ({memories}) => {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          
+          memory: inputedMemory.memory,
         })
       })
     }
