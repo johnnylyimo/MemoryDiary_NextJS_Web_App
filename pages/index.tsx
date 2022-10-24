@@ -136,7 +136,7 @@ const Home: NextPage<HomeProps>  = ({memories}) => {
                     Save
                   </button>
                   <button>
-                    
+                    Close
                   </button>
 
                 </div>
