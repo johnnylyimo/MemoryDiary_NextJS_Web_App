@@ -129,7 +129,7 @@ const Home: NextPage<HomeProps>  = ({memories}) => {
                 </textarea>
 
                 <div className="w-full flex justify-around">
-                  <button className='flex items-center  '>
+                  <button className='flex items-center my-5 '>
 
                   </button>
 
