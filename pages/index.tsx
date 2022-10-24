@@ -4,7 +4,6 @@ import { useRouter } from 'next/router'
 import { useState,FormEventHandler } from 'react';
 import {MdNotes, MdEdit} from 'react-icons/md'
 
-// Continuation of this project check prisma_app on pages/memory.tsx
 
 // To fetch data from api
 export const getServerSideProps = async () => {
@@ -104,6 +103,7 @@ const Home: NextPage<HomeProps>  = ({memories}) => {
                 Highlights
             </h1>
 
+            {/* all available memories */}
             {
               memories.map(({memory, id}) =>(
                 <div key={id} className="w-full bg-white flex justify-between space-x-4 text-black rounded-md p-2 m-2 cursor-pointer" onClick={() => {
@@ -115,6 +115,14 @@ const Home: NextPage<HomeProps>  = ({memories}) => {
                   <MdEdit size={25} className='cursor-pointer' onClick={() => setEditMemoryPopUp(true)}/>
                 </div>
               ))
+            }
+             
+          {/* Edit Popup */}
+            {
+            editMemoryPopUp ? (
+              
+            ) :null
+
             }
 
         </section>
