@@ -124,7 +124,7 @@ const Home: NextPage<HomeProps>  = ({memories}) => {
                 <textarea rows={4} value={editedMemory.memory || ""} placeholder='Write new memory here ...' className='block p-2 w-full text-base text-gray-900 bg-[#ce93d8] rounded-lg border-4 border-[#ac5eb9dc] focus:outline-none' onChange={({target})=> setEditedMemory({...editedMemory, memory: target.value})}>
                 </textarea>
 
-                <div className="w-full flex ">
+                <div className="w-full flex justify-around">
 
                 </div>
               </div>
