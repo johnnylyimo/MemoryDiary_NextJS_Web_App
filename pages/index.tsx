@@ -121,7 +121,7 @@ const Home: NextPage<HomeProps>  = ({memories}) => {
             {
             editMemoryPopUp ? (
               <div className="absolute top-[35%] left-[50%] translate-x-[-50%] translate-y-[-50%] bg-[#E1BEE7] w-[90%]  md:w-[45%]  flex justify-center items-center flex-col rounded-lg shadow-xl h-auto p-2 mx-auto">
-                <textarea  className='block p-2 w-full'>
+                <textarea  className='block p-2 w-full text-base'>
 
                 </textarea>
 
