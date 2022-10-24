@@ -117,6 +117,10 @@ const Home: NextPage<HomeProps>  = ({memories}) => {
               ))
             }
              
+
+
+
+             
           {/* Edit Popup */}
             {
             editMemoryPopUp ? (
@@ -125,8 +129,8 @@ const Home: NextPage<HomeProps>  = ({memories}) => {
                 </textarea>
 
                 <div className="w-full flex justify-around">
-                  <button>
-                    
+                  <button className='flex'>
+
                   </button>
 
                 </div>
