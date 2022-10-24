@@ -125,6 +125,9 @@ const Home: NextPage<HomeProps>  = ({memories}) => {
                 </textarea>
 
                 <div className="w-full flex justify-around">
+                  <button>
+                    
+                  </button>
 
                 </div>
               </div>
