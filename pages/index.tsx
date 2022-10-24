@@ -135,6 +135,9 @@ const Home: NextPage<HomeProps>  = ({memories}) => {
                   <button type="submit" className='flex items-center my-5 w-auto px-8 h-10 bg-blue-600 text-white font-semibold rounded-md shadow-md hover:shadow-lg' onClick={()=>submitEditMemory()}>
                     Save
                   </button>
+                  <button>
+                    
+                  </button>
 
                 </div>
               </div>
