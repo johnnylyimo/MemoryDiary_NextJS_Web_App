@@ -120,7 +120,9 @@ const Home: NextPage<HomeProps>  = ({memories}) => {
           {/* Edit Popup */}
             {
             editMemoryPopUp ? (
-              
+              <div className="">
+                
+              </div>
             ) :null
 
             }
