@@ -132,6 +132,9 @@ const Home: NextPage<HomeProps>  = ({memories}) => {
                   <button className='flex items-center my-5 w-auto px-8 h-10 bg-red-600 font-semibold text-white t rounded-md shadow-md hover:shadow-lg'  onClick={()=>setEditMemoryPopUp(false)}>
                     Delete
                   </button>
+                  <button>
+                    Save
+                  </button>
 
                 </div>
               </div>
