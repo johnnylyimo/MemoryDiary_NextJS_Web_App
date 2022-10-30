@@ -66,9 +66,9 @@ const Home: NextPage<HomeProps>  = ({memories}) => {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
+          id:editedMemory.id,
           title: editedMemory.memory.slice(0, inputedMemory.memory.length),
           memory: editedMemory.memory,
-
         })
       })
     }
