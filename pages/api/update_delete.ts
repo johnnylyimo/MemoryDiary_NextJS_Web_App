@@ -13,8 +13,10 @@ export default async function handler(
         case "PUT":
             try {
                 const memoryToBeEdited:Memory = await prisma.memory.update({
-                    
-                })
+                    where: {
+                        id,
+                      },
+                     
             } catch (error) {
                 
             }
