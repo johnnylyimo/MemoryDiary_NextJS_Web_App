@@ -5,4 +5,6 @@ import { Memory } from "@prisma/client";
 export default async function handler(
     req: NextApiRequest,
     res: NextApiResponse<Memory | Memory[] | {error: Object} | {message: Object} >
-  ) {}
+  ) {
+    const {method} = req;
+  }
