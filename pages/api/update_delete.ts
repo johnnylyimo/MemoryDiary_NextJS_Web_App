@@ -27,5 +27,6 @@ export default async function handler(
       } catch (error) {
         console.error("Update Request error: ", error);
       }
+      break;
   }
 }
