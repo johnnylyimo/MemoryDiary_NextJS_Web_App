@@ -59,6 +59,9 @@ const Home: NextPage<HomeProps>  = ({memories}) => {
 // method to handle on editing memory
   const submitEditMemory = async (e?:React.FormEvent) =>{
     e!.preventDefault()
+    if (editedMemory.memory !== ""){
+      
+    }
 
   }
 
