@@ -62,6 +62,9 @@ const Home: NextPage<HomeProps>  = ({memories}) => {
     if (editedMemory.memory !== ""){
       const response = await fetch('/api/update_delete', {
         method: "PUT",
+        headers: {
+          "Content-Type": "application/json",
+        },
       })
     }
 
