@@ -10,6 +10,7 @@ export default async function handler(
     const { id, memory, title} = req.body;
 
     switch(method){
+        case "PUT":
 
     }
   }
