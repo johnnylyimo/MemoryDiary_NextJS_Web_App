@@ -38,6 +38,7 @@ export default async function handler(
         console.error("Delete Request error: ", error);
       }
       break;
-      default:
+    default:
+      res.status(405).end(`Method ${method} Not Allowed`);
   }
 }
