@@ -144,6 +144,7 @@ const Home: NextPage<HomeProps>  = ({memories}) => {
               {
                 isEmptyMemory && editedMemory.memory === '' ? 
                 <label >
+                </label>:<label >
                 </label>
              }
 
