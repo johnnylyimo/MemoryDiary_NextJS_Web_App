@@ -38,5 +38,6 @@ export default async function handler(
         console.error("Delete Request error: ", error);
       }
       break;
+      default:
   }
 }
