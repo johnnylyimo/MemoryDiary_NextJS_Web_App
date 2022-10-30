@@ -8,4 +8,8 @@ export default async function handler(
   ) {
     const {method} = req;
     const { id, memory, title} = req.body;
+    
+    switch(){
+
+    }
   }
