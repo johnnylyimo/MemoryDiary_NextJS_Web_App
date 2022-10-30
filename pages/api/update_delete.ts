@@ -30,7 +30,9 @@ export default async function handler(
       break;
       case "DELETE":
         try {
-            
+            const memoryToBeDeleted: Memory = await prisma.memory.delete({
+                
+            })
         } catch (error) {
             
         }
