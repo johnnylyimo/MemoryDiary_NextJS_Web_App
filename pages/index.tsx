@@ -98,6 +98,7 @@ const Home: NextPage<HomeProps>  = ({memories}) => {
 
             {isEmptyMemory && inputedMemory.memory === '' ? 
               <label htmlFor='memory' className='inline-block mb-1 bg-red-500 text-md font-medium text-white py-1 px-2 rounded-md'>
+                Write new memory below
               </label>:<label htmlFor="memory" className='inline-block mb-1 text-md font-medium text-gray-900'>
                 Write new memory below
               </label>
