@@ -65,6 +65,9 @@ const Home: NextPage<HomeProps>  = ({memories}) => {
         headers: {
           "Content-Type": "application/json",
         },
+        body: JSON.stringify({
+          
+        })
       })
     }
 
