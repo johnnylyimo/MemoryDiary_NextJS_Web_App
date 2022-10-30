@@ -7,4 +7,5 @@ export default async function handler(
     res: NextApiResponse<Memory | Memory[] | {error: Object} | {message: Object} >
   ) {
     const {method} = req;
+    const { id} = req.body;
   }
