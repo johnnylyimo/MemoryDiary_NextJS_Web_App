@@ -21,6 +21,7 @@ export default async function handler(
                         memory,
                       },
                     });
+                    res.status(200).json(memoryToBeEdited);
             } catch (error) {
                 
             }
