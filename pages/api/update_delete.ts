@@ -29,5 +29,10 @@ export default async function handler(
       }
       break;
       case "DELETE":
+        try {
+            
+        } catch (error) {
+            
+        }
   }
 }
