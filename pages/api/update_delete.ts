@@ -19,7 +19,7 @@ export default async function handler(
             id,
           },
           data: {
-            title: memory.slice(0, memory.length),
+            title,
             memory,
           },
         });
