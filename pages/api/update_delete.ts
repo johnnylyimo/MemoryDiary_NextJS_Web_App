@@ -28,14 +28,14 @@ export default async function handler(
         console.error("Update Request error: ", error);
       }
       break;
-      case "DELETE":
-        try {
-            const memoryToBeDeleted: Memory = await prisma.memory.delete({
-                where: {id},
-            });
-            res.status(200).json({message: 'Memory successfully deleted'});
-        } catch (error) {
-            
-        }
+    case "DELETE":
+      try {
+        const memoryToBeDeleted: Memory = await prisma.memory.delete({
+          where: { id },
+        });
+        res.status(200).json({ message: "Memory successfully deleted" });
+      } catch (error) {
+        console.error("Delete Request error: ", error);
+      }
   }
 }
