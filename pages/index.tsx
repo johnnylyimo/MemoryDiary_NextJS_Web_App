@@ -60,7 +60,9 @@ const Home: NextPage<HomeProps>  = ({memories}) => {
   const submitEditMemory = async (e?:React.FormEvent) =>{
     e!.preventDefault()
     if (editedMemory.memory !== ""){
-      const response = await fetch('/api/update_delete', {})
+      const response = await fetch('/api/update_delete', {
+        method: "PUT",
+      })
     }
 
   }
