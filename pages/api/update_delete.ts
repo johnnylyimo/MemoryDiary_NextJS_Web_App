@@ -28,5 +28,6 @@ export default async function handler(
         console.error("Update Request error: ", error);
       }
       break;
+      case "DELETE":
   }
 }
