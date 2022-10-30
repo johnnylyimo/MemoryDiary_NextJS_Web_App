@@ -18,7 +18,7 @@ export default async function handler(
                       },
                       data: {
                         title: memory.slice(0, memory.length),
-                       
+                        memory,
                       },
                     });
             } catch (error) {
