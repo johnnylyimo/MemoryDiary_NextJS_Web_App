@@ -11,6 +11,11 @@ export default async function handler(
 
     switch(method){
         case "PUT":
+            try {
+                
+            } catch (error) {
+                
+            }
 
     }
   }
