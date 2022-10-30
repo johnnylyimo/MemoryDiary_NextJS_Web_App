@@ -16,7 +16,11 @@ export default async function handler(
                     where: {
                         id,
                       },
-                     
+                      data: {
+                        title: memory.slice(0, memory.length),
+                       
+                      },
+                    });
             } catch (error) {
                 
             }
