@@ -30,6 +30,7 @@ const Home: NextPage<HomeProps>  = ({memories}) => {
   });
   const [editedMemory, setEditedMemory] = useState({
     id: "",
+    title:"",
     memory: ""
   });
 
@@ -57,8 +58,7 @@ const Home: NextPage<HomeProps>  = ({memories}) => {
   }
 
 // method to handle on editing memory
-  const submitEditMemory = async (e?:React.FormEvent) =>{
-    e!.preventDefault()
+  const submitEditMemory = async () =>{
     if (editedMemory.memory !== ""){
       const response = await fetch('/api/update_delete', {
         method: "PUT",
@@ -67,7 +67,7 @@ const Home: NextPage<HomeProps>  = ({memories}) => {
         },
         body: JSON.stringify({
           id:editedMemory.id,
-          title: editedMemory.memory.slice(0, inputedMemory.memory.length),
+          title: editedMemory.memory.slice(0, editedMemory.memory.length),
           memory: editedMemory.memory,
         })
       })
@@ -122,7 +122,7 @@ const Home: NextPage<HomeProps>  = ({memories}) => {
               memories.map(({memory, id}) =>(
                 <div key={id} className="w-full bg-white flex justify-between space-x-4 text-black rounded-md p-2 m-2 cursor-pointer" onClick={() => {
                   setEditMemoryPopUp(true)
-                  setEditedMemory({id:id, memory: memory})
+                  setEditedMemory({id:id, memory: memory,title:''})
                 }} >
                   <MdNotes size={25}/>
                   <p>{memory}</p>
