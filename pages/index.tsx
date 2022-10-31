@@ -72,6 +72,8 @@ const Home: NextPage<HomeProps>  = ({memories}) => {
         })
       })
       router.reload()
+    } else{
+      setIsEmptyMemory(true)
     }
 
   }
