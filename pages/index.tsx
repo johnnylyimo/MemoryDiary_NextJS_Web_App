@@ -144,6 +144,7 @@ const Home: NextPage<HomeProps>  = ({memories}) => {
               {
                 isEmptyMemory && editedMemory.memory === '' ? 
                 <label htmlFor='emptyMemory' className='inline-block mb-1 text-md font-medium text-white bg-red-500 py-1 px-2 rounded-md'>
+                    Edit your memory below, don't leave blank
                 </label>:<label htmlFor='memory' className='inline-block mb-1 text-md font-medium text-gray-900'>
                 </label>
              }
