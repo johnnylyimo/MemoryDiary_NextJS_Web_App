@@ -143,7 +143,7 @@ const Home: NextPage<HomeProps>  = ({memories}) => {
               <div className="absolute top-[35%] left-[50%] translate-x-[-50%] translate-y-[-50%] bg-[#E1BEE7] w-[90%]  md:w-[45%]  flex justify-center items-center flex-col rounded-lg shadow-xl h-auto p-2 mx-auto">
               {
                 isEmptyMemory && editedMemory.memory === '' ? 
-                <label htmlFor='emptyMemory' className='inline-block mb-1 text-md font-medium text-white bg-red-500 py-1'>
+                <label htmlFor='emptyMemory' className='inline-block mb-1 text-md font-medium text-white bg-red-500 py-1 px-2'>
                 </label>:<label htmlFor='memory' className='inline-block mb-1 text-md font-medium text-gray-900'>
                 </label>
              }
