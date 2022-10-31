@@ -90,6 +90,7 @@ const Home: NextPage<HomeProps>  = ({memories}) => {
         id:editedMemory.id
       })
     })
+    router.reload()
 
   }
 
