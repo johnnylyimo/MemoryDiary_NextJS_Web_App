@@ -82,7 +82,7 @@ const Home: NextPage<HomeProps>  = ({memories}) => {
 // method to handle on deleting memory
   const submitDeleteMemory = async () =>{
     await fetch('/api/update_delete', {
-
+      method: "DELETE",
     })
 
   }
