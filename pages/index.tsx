@@ -83,6 +83,9 @@ const Home: NextPage<HomeProps>  = ({memories}) => {
   const submitDeleteMemory = async () =>{
     await fetch('/api/update_delete', {
       method: "DELETE",
+      headers: {
+        "Content-Type": "application/json",
+      },
     })
 
   }
