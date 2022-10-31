@@ -167,7 +167,7 @@ const Home: NextPage<HomeProps>  = ({memories}) => {
                 </textarea>
 
                 <div className="w-full flex justify-around">
-                  <button type="submit" className='my-5 w-auto px-8 h-10 bg-red-600 font-semibold text-white t rounded-md shadow-md hover:shadow-lg'  onClick={()=>setEditMemoryPopUp(false)}>
+                  <button type="submit" className='my-5 w-auto px-8 h-10 bg-red-600 font-semibold text-white t rounded-md shadow-md hover:shadow-lg'  onClick={()=>submitDeleteMemory()}>
                     Delete
                   </button>
                   <button type="submit" className='my-5 w-auto px-8 h-10 bg-blue-600 text-white font-semibold rounded-md shadow-md hover:shadow-lg' onClick={()=>submitEditMemory()}>
