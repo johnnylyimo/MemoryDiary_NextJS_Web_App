@@ -72,6 +72,7 @@ const Home: NextPage<HomeProps>  = ({memories}) => {
           memory: editedMemory.memory,
         })
       })
+      setEditMemoryPopUp(false)
       router.replace(router.asPath)
     } else{
       setIsEmptyEditedMemory(true)
