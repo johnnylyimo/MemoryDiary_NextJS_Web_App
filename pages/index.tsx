@@ -52,7 +52,7 @@ const Home: NextPage<HomeProps>  = ({memories}) => {
 
       const newMemory = await response.json()
       setInputedMemory({memory: "", title:''});
-      router.reload()
+      router.replace(router.asPath)
     } else{
       setIsEmptyMemory(true)
     }
