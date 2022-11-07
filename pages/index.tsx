@@ -92,7 +92,7 @@ const Home: NextPage<HomeProps>  = ({memories}) => {
       })
     })
     setEditMemoryPopUp(false)
-    
+    router.replace(router.asPath)
 
   }
 
