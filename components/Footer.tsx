@@ -44,7 +44,7 @@ export default function Footer() {
                     </h1>
                     <div className="flex justify-center gap-x-1">
                         <MdLocationPin size={25} />
-                        Buni at Costech Building, Sayansi, Dar-es-Salaam
+                        MolysTechie SiliconLab, Kijitonyama, Dar-es-Salaam
                     </div>
                 </div>
                 <div className="flex flex-col gap-y-2">
