@@ -8,7 +8,7 @@ export default function Footer() {
   return (
     <footer className="w-full mb-6 p-4  bg-[#ce93d8] grid md:grid-cols-5 gap-4">
         <section className="md:col-span-2 text-center">
-            <Image  src='/brand.png' width={180} height={120} layout='fixed' />
+            <Image  src='/brand.png' width={180} height={120} alt="brand" />
             <p>
                  MolysTechie is tech startup, specialized on developing Mobile Apps, Web Apps and Wep APIs. It's senior Developer is John L. Lyimo, the guy who developed this Website using Next.js Framework that is built on top of React. This web app is hosted on Vercel, the company developed Next.js Framework.
             </p>
@@ -21,20 +21,14 @@ export default function Footer() {
                         Follow Me
                     </h1>
                     <div className="grid gap-y-1">
-                        <Link href='https://github.com/johnnylyimo'>
-                            <a target={'_blank'} className='text-lg text-blue-500 font-bold'>
-                                GitHub
-                            </a>
+                        <Link href='https://github.com/johnnylyimo' target={'_blank'} className='text-lg text-blue-500 font-bold'>
+                            GitHub
                         </Link>
-                        <Link href='https://twitter.com/johnnylyimo'>
-                            <a target={'_blank'} className='text-lg text-blue-500 font-bold'>
+                        <Link href='https://twitter.com/johnnylyimo' target={'_blank'} className='text-lg text-blue-500 font-bold'>
                                 Twitter
-                            </a>
                         </Link>
-                        <Link href="https://www.linkedin.com/in/johnnylyimo">
-                            <a target={'_blank'} className='text-lg text-blue-500 font-bold'>
+                        <Link href="https://www.linkedin.com/in/johnnylyimo" target={'_blank'} className='text-lg text-blue-500 font-bold'>
                                 LinkedIn
-                            </a>
                         </Link>
                     </div>
                 </div>

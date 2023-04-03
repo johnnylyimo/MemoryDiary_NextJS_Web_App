@@ -59,7 +59,7 @@ const Home: NextPage<HomeProps>  = ({memories}) => {
   }
 
 // method to handle on editing memory
-  const submitEditMemory = async () =>{
+  const submitEditMemory = async () => {
     if (editedMemory.memory !== ""){
       const response = await fetch('/api/update_delete', {
         method: "PUT",
